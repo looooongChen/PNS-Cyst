@@ -51,6 +51,16 @@ The data sets are available:
 - opencv=4.x
 - scikit-image=0.19
 
+### Pre-trained models
+| Model | Release Date | Remarks |
+| ------------- | ------------- | ------------- |
+| [U-Net](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_uNet.zip) | Jul. 2022 | U-Net trained without augmentation |
+| [U-NetA](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_uNetA.zip) | Jul. 2022 | U-Net trained with augmentation |
+| [ResNet50](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_ResNet50.zip) | Jul. 2022 | ResNet50 trained without augmentation |
+| [ResNet50A](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_ResNet50A.zip) | Jul. 2022 | ResNet50 trained with augmentation |
+| [ResNet101](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_ResNet101.zip) | Jul. 2022 | ResNet101 trained without augmentation |
+| [ResNet101A](https://github.com/looooongChen/PNS-Cyst/blob/main/models/model_ResNet101A.zip) | Jul. 2022 | ResNet101 trained with augmentation |
+
 To load the trained model, the python package [*instSeg*](https://github.com/looooongChen/instSeg) developed by us is required. The package instSeg is keeping updated, some compatibility issue may arise. We recommend to use the version included in this repository.
 
 After the installation, you can easily load the model fore prediction:
