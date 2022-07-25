@@ -6,12 +6,11 @@
 - [Datasets](#datasets)
 - [Trained Models](#trained-models)
 - [Results](#results)
-- [License](./LICENSE)
 - [Citation](#citation)
 
 ## Overview
 
-<img src="figures/overview.png" width="600" align="middle">
+<img src="figures/overview.png" width="800" align="middle">
 
 The beet cyst nematode *Heterodera schachtii* is a plant pest responsible for crop loss on a global scale. Here, we introduce a high-throughput system based on computer vision that allows quantifying beet cyst nematode infestation and measuring phenotypic traits of cysts. After recording microscopic images of soil sample extracts in a standardized setting, an instance segmentation algorithm serves to detect nematode cysts in these images. In an evaluation using both ground truth samples with known cyst numbers and manually annotated images, the computer vision approach produced accurate nematode cyst counts, as well as accurate cyst segmentations. Based on such segmentations, cyst features could be computed that served to reveal phenotypical differences between nematode populations in different soils and in populations observed before and after the sugar beet planting period.
 
@@ -34,9 +33,9 @@ To validate the cyst detection and segmentation performance of the automated sys
 <img src="figures/overview.png" width="600" align="middle">
 
 The data sets are available:
-- [*Cyst-Segmentation*](https://zenodo.org/record/6806398): https://zenodo.org/record/6806398
-- *Cyst-Count*: [Part1: with debris](https://zenodo.org/record/6861775), [Part2: without debris](https://zenodo.org/record/6861814)
-- [*Cyst-Count-Artificial*](https://zenodo.org/record/6870064): https://zenodo.org/record/6870064 
+- *Cyst-Segmentation*: https://zenodo.org/record/6806398 (~7G)
+- *Cyst-Count*: [Part1: with debris](https://zenodo.org/record/6861775) (~37G), [Part2: without debris](https://zenodo.org/record/6861814) (~16G)
+- *Cyst-Count-Artificial*: https://zenodo.org/record/6870064 (~40G)
 
 
 ## Trained Models
