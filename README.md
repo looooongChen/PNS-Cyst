@@ -10,7 +10,9 @@
 
 ## Overview
 
-<img src="figures/overview.png" width="600" align="center">
+<p align="center">
+<img src="figures/overview.png" width="600" >
+</p>
 
 The beet cyst nematode *Heterodera schachtii* is a plant pest responsible for crop loss on a global scale. Here, we introduce a high-throughput system based on computer vision that allows quantifying beet cyst nematode infestation and measuring phenotypic traits of cysts. After recording microscopic images of soil sample extracts in a standardized setting, an instance segmentation algorithm serves to detect nematode cysts in these images. In an evaluation using both ground truth samples with known cyst numbers and manually annotated images, the computer vision approach produced accurate nematode cyst counts, as well as accurate cyst segmentations. Based on such segmentations, cyst features could be computed that served to reveal phenotypical differences between nematode populations in different soils and in populations observed before and after the sugar beet planting period.
 
@@ -30,7 +32,9 @@ To validate the cyst detection and segmentation performance of the automated sys
 - *Cyst-Count*: Cyst counting scenario. The ground truth cyst count was obtained through manual counting. We considered soil samples from two different soil layers (top soil: 0-30 cm, sub soil: 31-60 cm) with either low or high cyst density. For each soil type (Top-Low, Top-High, Sub-Low and Sub-High), we conducted soil sampling before and after the sugar beet growing season, 6 samples each time. A total of 48 samples (4 types x 2 timepoints x 6 samples) were collected, processed and recorded with 30 images per sample (the "debris" sample). For each sample, we further manually separated the cysts from debris particles to obtain the "clean" samples (12 images per sample) that were used as an additional evaluation data set. Cyst separation and counting were performed simultaneously by the professional laboratory staff from JKI.
 - *Cyst-Count-Artificial*: Cyst counting scenario. We artificially created samples with exact cyst numbers by adding hand-picked cysts to cyst-free soil extracts. We controlled the cyst count (30, 60, 120 and 240 cysts) and the amount of soil extracts (from 100g and 300g soil sample), generating 6 samples for each combination.
 
-<img src="figures/dataset.png" width="600" align="center">
+<p align="center">
+<img src="figures/dataset.png" width="600" >
+</p>
 
 The data sets are available:
 - *Cyst-Segmentation*: https://zenodo.org/record/6806398 (~7G)
