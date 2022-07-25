@@ -44,7 +44,14 @@ The data sets are available:
 
 ## Trained Models
 
-To load the trained model, the python package [*instSeg*](https://github.com/looooongChen/instSeg) developed by us is required. Please refer to the link for installation. 
+### Requirements
+
+- python=3.x
+- tensorflow=2.x
+- opencv=4.x
+- scikit-image=0.19
+
+To load the trained model, the python package [*instSeg*](https://github.com/looooongChen/instSeg) developed by us is required. The package instSeg is keeping updated, some compatibility issue may arise. We recommend to use the version included in this repository.
 
 After the installation, you can easily load the model fore prediction:
 
@@ -57,7 +64,7 @@ model_path = "..."
 
 model = instSeg.load_model(model_dir=model_path)
 img = cv2.imread(img_path)[:,:,:3]
-instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[128,128], overlap=[0,0], mode='bi', min_obj_size=500)
+instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[0,0], overlap=[128,128], mode='bi')
 ```
 
 
