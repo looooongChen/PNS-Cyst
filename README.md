@@ -80,7 +80,6 @@ instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[0
 
 ## Results
 
-<!--
 ### 1. Evaluation of counting accuracy.
 
 <img src="figure/" width="600" align="middle">
@@ -92,13 +91,12 @@ instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[0
 ### 3. Image-based phenotyping reveals that nematode populations have characteristic phenotypical features.
 
 <img src="figure/" width="600" align="middle">
--->
 
 
 ## Citation
 
 If you use this code or dataset please cite the paper where the method appeared: 
-'''
+```
 @ARTICLE{10.3389/fpls.2022.965254,
 AUTHOR={Chen, Long and Daub, Matthias and Luigs, Hans-Georg and Jansen, Marcus and Strauch, Martin and Merhof, Dorit},   
 TITLE={High-throughput phenotyping of nematode cysts},      
@@ -109,5 +107,5 @@ URL={https://www.frontiersin.org/articles/10.3389/fpls.2022.965254},
 DOI={10.3389/fpls.2022.965254},      
 ISSN={1664-462X},   
 }
-'''
+```
 
