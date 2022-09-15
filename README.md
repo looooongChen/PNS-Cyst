@@ -82,28 +82,28 @@ instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[0
 
 ### 1. Evaluation of counting accuracy.
 
-<img src="figure/" width="600" align="middle">
+<img src="figure/counting.png" width="600" align="middle">
 
 ### 2. Evaluation of segmentation accuracy.
 
-<img src="figure/" width="600" align="middle">
+<img src="figure/segmentation.png" width="600" align="middle">
 
 ### 3. Image-based phenotyping reveals that nematode populations have characteristic phenotypical features.
 
-<img src="figure/" width="600" align="middle">
+<img src="figure/phenotyping.png" width="600" align="middle">
 
 
 ## Citation
 
 If you use this code or dataset please cite the paper where the method appeared: 
 ```
-@ARTICLE{10.3389/fpls.2022.965254,
-AUTHOR={Chen, Long and Daub, Matthias and Luigs, Hans-Georg and Jansen, Marcus and Strauch, Martin and Merhof, Dorit},   
-TITLE={High-throughput phenotyping of nematode cysts},      
-JOURNAL={Frontiers in Plant Science},      
-VOLUME={13},           
-YEAR={2022},      
-URL={https://www.frontiersin.org/articles/10.3389/fpls.2022.965254},       
+@article{10.3389/fpls.2022.965254,
+author    ={Chen, Long and Daub, Matthias and Luigs, Hans-Georg and Jansen, Marcus and Strauch, Martin and Merhof, Dorit},   
+title={High-throughput phenotyping of nematode cysts},      
+journal={Frontiers in Plant Science},      
+volumn={13},           
+year={2022},      
+url={https://www.frontiersin.org/articles/10.3389/fpls.2022.965254},       
 DOI={10.3389/fpls.2022.965254},      
 ISSN={1664-462X},   
 }
