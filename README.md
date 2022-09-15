@@ -98,5 +98,16 @@ instance = instSeg.seg_in_tessellation(model, img, patch_sz=[512,512], margin=[0
 ## Citation
 
 If you use this code or dataset please cite the paper where the method appeared: 
-
+'''
+@ARTICLE{10.3389/fpls.2022.965254,
+AUTHOR={Chen, Long and Daub, Matthias and Luigs, Hans-Georg and Jansen, Marcus and Strauch, Martin and Merhof, Dorit},   
+TITLE={High-throughput phenotyping of nematode cysts},      
+JOURNAL={Frontiers in Plant Science},      
+VOLUME={13},           
+YEAR={2022},      
+URL={https://www.frontiersin.org/articles/10.3389/fpls.2022.965254},       
+DOI={10.3389/fpls.2022.965254},      
+ISSN={1664-462X},   
+}
+'''
 
